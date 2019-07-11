@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<meta charset="utf-8">
+			<title>bilibili会员购</title>
+			<link rel="stylesheet" type="text/css" href="stylesheets/vipshop.css"/>
+		</head>
+		<body>
+			
+			<div class="nav-header">
+				<div class="nav-header-wrapper">
+					<div class="logo">
+						<a href="vipshop.html"></a>
+					</div>
+					<div class="zhuzhanpic">
+						<a href="bilibili_index.html"></a>
+					</div>	
+					<div class="zhuzhan">
+							<a href="bilibili_index.html">主站</a>
+					</div>
+					
+					<div >
+						<div class="">
+							<input results="s" placeholder="活动、嘉宾、场馆" type="text"  name=""class="serch" >
+						</div>
+						<div class="">
+							<input type="submit" value=""  class="serchbutton" onclick="">
+						</div>
+						<div class="backside">
+							<p><a href="">登录</a></p>
+							<p>|</p>
+							<p><a href="">注册</a></p>
+						</div>
+						<div class="ordercenter">
+							<a href="">订单中心</a>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="adv">
+			<div class="huanye">
+				<ul>
+					<li ><img src="images/vipshop/vipshop-gundong1.jpeg" ></li>
+					<li><img src="images/vipshop/vipshop-gundong2.jpeg" ></li>
+					<li><img src="images/vipshop/vipshop-gundong3.jpeg" ></li>
+					<li><img src="images/vipshop/vipshop-gundong4.jpeg" ></li>
+					<li><img src="images/vipshop/vipshop-gundong5.jpeg" ></li>
+					<li ><img src="images/vipshop/vipshop-gundong1.jpeg" ></li>
+				</ul>
+			</div>
+			
+			<div class="chioce">
+				<ul>
+					<li>
+						<div class="chiocebutton">	
+							
+						</div>
+					</li>
+					<li>
+						<div class="chiocebutton">	
+							
+						</div>
+					</li>
+					<li>
+						<div class="chiocebutton">	
+							
+						</div>
+					</li>
+					<li>
+						<div class="chiocebutton">	
+							
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="message-box">
+			<div class="adress">
+				<div class="cst">
+					<p>城市:</p>
+				</div>
+				<div class="citychoice">
+					<ul>
+						<li><a href="">全国</li></a>
+						<li class="lifrst"><span>上海</span></li>
+						<li><a href="">北京</li></a>
+						<li><a href="">广州</li></a>
+						<li><a href="">苏州</li></a>
+						<li><a href="">深圳</li></a>
+						<li><a href="">宁波</li></a>
+						<li><a href="">成都</li></a>
+						<li><a href="">南京</li></a>
+						<li><a href="">沈阳</li></a>
+						<li class="li-more">
+							<span class="">更多城市</span> 
+							<svg height="5" width="12" xmlns="http://www.w3.org/2000/svg" version="1.1" class="category_arrow">
+								<path d="M0 0 L5 5 L10 0" stroke-width="1" stroke="#999" fill="none"></path>
+							</svg>			
+					</ul>
+				</div>
+				<div class="bl">
+					</div>
+				</div>
+			
+			<div class="switch">
+				<div class="cst">
+					<p>类型:</p>
+				</div>
+				<div class="citychoice">
+					<ul>
+						<li class="lifrst"><span>全部类型</span></li>
+						<li><a href="">演唱会(20)</li></a>
+						<li><a href="">其他展览(18)</li></a>
+						<li><a href="">音乐会(7)</li></a>
+						<li><a href=""><span>动漫嘉年华(7)</span></li></a>
+						<li><a href="">舞台剧(7)</li></a>
+						<li class="li-more">
+							<span class="">更多类型</span> 
+							<svg height="5" width="12" xmlns="http://www.w3.org/2000/svg" version="1.1" class="category_arrow">
+								<path d="M0 0 L5 5 L10 0" stroke-width="1" stroke="#999" fill="none"></path>
+							</svg>		
+			</div>
+			<div class="bl">
+				</div>
+			</div>
+			
+			<div class="time">
+				<div class="cst">
+						<p>筛选:</p>
+					</div>
+					<div class="citychoice">
+						<ul >
+							<li class="lifrst"><span>全部时间</span></li>
+							<li><a href="">本周</li></a>
+							<li><a href="">本月</li></a>
+							<li><a href="">三个月内</li></a>
+							<li><a href=""></li></a>
+							<li><a href=""></li></a>
+							<li><a href=""></li></a>
+							<li><a href=""></li></a>
+							<li><a href=""></li></a>
+							<li><a href=""></li></a> 	
+					
+				</div>
+				</div>
+				
+			</div>
+		</div>
+<div class="prod">
+		
+		
+		<div class="prod-list">
+				<div class="prod-list-item">
+					<div class="prod-list-img" >
+						<img src="images/vipshop/1.jpeg" width="175px" height="233" >
+					</div>
+					<div class="prod-list-title">
+						<p>上海洛天依&郎朗演唱会</p>
+					</div>
+					<div class="prod-list-time">
+						<span class="icon time-icon"></span>2019.02.23 - 02.23
+					</div>
+					<div class="prod-list-dress">
+						<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+					</div>
+					<div class="prod-list-price">
+							<span class="price-symbol">¥</span> 
+							<span class="price">480</span> 
+							<span class="start">起</span> 
+							
+				</div>
+				</div>
+				
+				<div class="prod-list-item">
+					<div class="prod-list-img">
+						<img src="images/vipshop/2.jpeg" width="175px" height="233" >
+					</div>
+					<div class="prod-list-title">
+						<p>上海洛天依&郎朗演唱会</p>
+					</div>
+					<div class="prod-list-time">
+						<span class="icon time-icon"></span>2019.02.23 - 02.23
+					</div>
+					<div class="prod-list-dress">
+						<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+					</div>
+					<div class="prod-list-price">
+							<span class="price-symbol">¥</span> 
+							<span class="price">480</span> 
+							<span class="start">起</span> 
+							
+				</div>
+				</div>
+							
+		
+			
+		</div>
+		
+		<div class="prod-list">
+				<div class="prod-list-item">
+					<div class="prod-list-img">
+						<img src="images/vipshop/3.jpeg" width="175px" height="233" >
+					</div>
+					<div class="prod-list-title">
+						<p>上海洛天依&郎朗演唱会</p>
+					</div>
+					<div class="prod-list-time">
+						<span class="icon time-icon"></span>2019.02.23 - 02.23
+					</div>
+					<div class="prod-list-dress">
+						<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+					</div>
+					<div class="prod-list-price">
+							<span class="price-symbol">¥</span> 
+							<span class="price">480</span> 
+							<span class="start">起</span> 
+							
+				</div>
+				</div>
+				
+				<div class="prod-list-item">
+					<div class="prod-list-img">
+						<img src="images/vipshop/4.jpeg" width="175px" height="233" >
+					</div>
+					<div class="prod-list-title">
+						<p>上海洛天依&郎朗演唱会</p>
+					</div>
+					<div class="prod-list-time">
+						<span class="icon time-icon"></span>2019.02.23 - 02.23
+					</div>
+					<div class="prod-list-dress">
+						<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+					</div>
+					<div class="prod-list-price">
+							<span class="price-symbol">¥</span> 
+							<span class="price">480</span> 
+							<span class="start">起</span> 
+							
+				</div>
+				</div>
+							
+		
+			
+		</div>
+		
+		<div class="prod-list">
+				<div class="prod-list-item">
+					<div class="prod-list-img">
+						<img src="images/vipshop/5.jpeg" width="175px" height="233" >
+					</div>
+					<div class="prod-list-title">
+						<p>上海洛天依&郎朗演唱会</p>
+					</div>
+					<div class="prod-list-time">
+						<span class="icon time-icon"></span>2019.02.23 - 02.23
+					</div>
+					<div class="prod-list-dress">
+						<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+					</div>
+					<div class="prod-list-price">
+							<span class="price-symbol">¥</span> 
+							<span class="price">480</span> 
+							<span class="start">起</span> 
+							
+				</div>
+				</div>
+				
+				<div class="prod-list-item">
+					<div class="prod-list-img">
+						<img src="images/vipshop/6.jpeg"  width="175px" height="233">
+					</div>
+					<div class="prod-list-title">
+						<p>上海洛天依&郎朗演唱会</p>
+					</div>
+					<div class="prod-list-time">
+						<span class="icon time-icon"></span>2019.02.23 - 02.23
+					</div>
+					<div class="prod-list-dress">
+						<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+					</div>
+					<div class="prod-list-price">
+							<span class="price-symbol">¥</span> 
+							<span class="price">480</span> 
+							<span class="start">起</span> 
+							
+				</div>
+				</div>
+							
+		
+			
+		</div>
+		
+		<div class="prod-list">
+				<div class="prod-list-item">
+					<div class="prod-list-img">
+						<img src="images/vipshop/7.jpeg" width="175px" height="233" >
+					</div>
+					<div class="prod-list-title">
+						<p>上海洛天依&郎朗演唱会</p>
+					</div>
+					<div class="prod-list-time">
+						<span class="icon time-icon"></span>2019.02.23 - 02.23
+					</div>
+					<div class="prod-list-dress">
+						<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+					</div>
+					<div class="prod-list-price">
+							<span class="price-symbol">¥</span> 
+							<span class="price">480</span> 
+							<span class="start">起</span> 
+							
+				</div>
+				</div>
+				
+				<div class="prod-list-item">
+					<div class="prod-list-img">
+						
+						<img src="images/vipshop/8.jpeg"  width="175px" height="233">
+					</div>
+					<div class="prod-list-title">
+						<p>上海洛天依&郎朗演唱会</p>
+					</div>
+					<div class="prod-list-time">
+						<span class="icon time-icon"></span>2019.02.23 - 02.23
+					</div>
+					<div class="prod-list-dress">
+						<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+					</div>
+					<div class="prod-list-price">
+							<span class="price-symbol">¥</span> 
+							<span class="price">480</span> 
+							<span class="start">起</span> 
+							
+				</div>
+				</div>
+							
+		
+			
+		</div>
+		
+		<div class="prod-list">
+				<div class="prod-list-item">
+					<div class="prod-list-img">
+						<img src="images/vipshop/9.jpeg" width="175px" height="233" >
+					</div>
+					<div class="prod-list-title">
+						<p>上海洛天依&郎朗演唱会</p>
+					</div>
+					<div class="prod-list-time">
+						<span class="icon time-icon"></span>2019.02.23 - 02.23
+					</div>
+					<div class="prod-list-dress">
+						<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+					</div>
+					<div class="prod-list-price">
+							<span class="price-symbol">¥</span> 
+							<span class="price">480</span> 
+							<span class="start">起</span> 
+							
+				</div>
+				</div>
+				
+				<div class="prod-list-item">
+					<div class="prod-list-img">
+						<img src="images/vipshop/10.jpeg" width="175px" height="233" >
+					</div>
+					<div class="prod-list-title">
+						<p>上海洛天依&郎朗演唱会</p>
+					</div>
+					<div class="prod-list-time">
+						<span class="icon time-icon"></span>2019.02.23 - 02.23
+					</div>
+					<div class="prod-list-dress">
+						<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+					</div>
+					<div class="prod-list-price">
+							<span class="price-symbol">¥</span> 
+							<span class="price">480</span> 
+							<span class="start">起</span> 
+							
+				</div>
+				</div>
+				<div class="prod-list">
+						<div class="prod-list-item">
+							<div class="prod-list-img" width="175px" height="233">
+								<img src="images/vipshop/11.jpeg" >
+							</div>
+							<div class="prod-list-title">
+								<p>上海洛天依&郎朗演唱会</p>
+							</div>
+							<div class="prod-list-time">
+								<span class="icon time-icon"></span>2019.02.23 - 02.23
+							</div>
+							<div class="prod-list-dress">
+								<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+							</div>
+							<div class="prod-list-price">
+									<span class="price-symbol">¥</span> 
+									<span class="price">480</span> 
+									<span class="start">起</span> 
+									
+						</div>
+						</div>
+						
+						<div class="prod-list-item">
+							<div class="prod-list-img">
+								<img src="images/vipshop/12.jpeg" width="175px" height="233" >
+							</div>
+							<div class="prod-list-title">
+								<p>上海洛天依&郎朗演唱会</p>
+							</div>
+							<div class="prod-list-time">
+								<span class="icon time-icon"></span>2019.02.23 - 02.23
+							</div>
+							<div class="prod-list-dress">
+								<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+							</div>
+							<div class="prod-list-price">
+									<span class="price-symbol">¥</span> 
+									<span class="price">480</span> 
+									<span class="start">起</span> 
+									
+						</div>
+						</div>
+									
+				
+					
+				</div>
+				<div class="prod-list">
+						<div class="prod-list-item">
+							<div class="prod-list-img">
+								<img src="images/vipshop/6.jpeg" width="175px" height="233" >
+							</div>
+							<div class="prod-list-title">
+								<p>上海洛天依&郎朗演唱会</p>
+							</div>
+							<div class="prod-list-time">
+								<span class="icon time-icon"></span>2019.02.23 - 02.23
+							</div>
+							<div class="prod-list-dress">
+								<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+							</div>
+							<div class="prod-list-price">
+									<span class="price-symbol">¥</span> 
+									<span class="price">480</span> 
+									<span class="start">起</span> 
+									
+						</div>
+						</div>
+						
+						<div class="prod-list-item">
+							<div class="prod-list-img">
+								<img src="images/vipshop/9.jpeg"  width="175px" height="233">
+							</div>
+							<div class="prod-list-title">
+								<p>上海洛天依&郎朗演唱会</p>
+							</div>
+							<div class="prod-list-time">
+								<span class="icon time-icon"></span>2019.02.23 - 02.23
+							</div>
+							<div class="prod-list-dress">
+								<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+							</div>
+							<div class="prod-list-price">
+									<span class="price-symbol">¥</span> 
+									<span class="price">480</span> 
+									<span class="start">起</span> 
+									
+						</div>
+						</div>
+									
+				
+					
+				</div>
+				
+				<div class="prod-list">
+						<div class="prod-list-item">
+							<div class="prod-list-img">
+								<img src="images/vipshop/11.jpeg" width="175px" height="233" >
+							</div>
+							<div class="prod-list-title">
+								<p>上海洛天依&郎朗演唱会</p>
+							</div>
+							<div class="prod-list-time">
+								<span class="icon time-icon"></span>2019.02.23 - 02.23
+							</div>
+							<div class="prod-list-dress">
+								<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+							</div>
+							<div class="prod-list-price">
+									<span class="price-symbol">¥</span> 
+									<span class="price">480</span> 
+									<span class="start">起</span> 
+									
+						</div>
+						</div>
+						
+						<div class="prod-list-item">
+							<div class="prod-list-img">
+								<img src="images/vipshop/5 .jpeg"  width="175px" height="233">
+							</div>
+							<div class="prod-list-title">
+								<p>上海洛天依&郎朗演唱会</p>
+							</div>
+							<div class="prod-list-time">
+								<span class="icon time-icon"></span>2019.02.23 - 02.23
+							</div>
+							<div class="prod-list-dress">
+								<span class="icon derss-icon"></span>上海梅赛德斯-奔驰文化中心
+							</div>
+							<div class="prod-list-price">
+									<span class="price-symbol">¥</span> 
+									<span class="price">480</span> 
+									<span class="start">起</span> 
+									
+						</div>
+						</div>
+									
+				
+					
+				</div>
+							
+		
+			
+		</div>
+		<div class="fanye">
+			<div class="shangyiye"></div>
+			<div class="yeshu">
+				<ul>
+					<li class="pageNum active">1</li>
+					<li class="pageNum">2</li>
+					<li class="pageNum">3</li>
+					<li class="pageNum">4</li>
+					<li class="pageNum">5</li>
+				</ul>
+				
+			</div>
+			<div class="xiayiye"></div>
+		</div>
+	
+	
+</div>
+		</body>
+</html>

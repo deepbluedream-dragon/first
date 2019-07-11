@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bilibili相册</title>
+	<style>
+		*{
+			margin:0;
+			padding: 0;
+		}
+		li{list-style: none}
+		header{
+			height: 800px;
+			background:  url(images/photo/p_bg01.png)  no-repeat;
+			background-position: center;
+		}
+		.manuBg{
+			width: 100%;
+			height: 56px;
+			background:rgb(0,0,0,0.2);
+			position: relative;
+		
+		}
+		.menuCout{
+            width:800px;
+			height: 56px;
+			margin-left:200px;
+			position: absolute;
+
+		}
+		.menuCout ul{
+			height: 56px;
+			float: left;
+		}
+		.menuCout ul li{
+			float: left;
+			margin-left: 5px;
+
+
+		}
+		.menuCout ul li a{
+			font-size: 14px;
+			height: 56px;
+			line-height: 56px;
+			padding: 0 16px;
+			margin: 0 2px;
+			color: white;
+			display: block;
+			text-decoration: none;
+		}
+		.menuCout ul li .si a{
+			color: deeppink;
+
+		}
+		.box{
+			width: 700px;
+			height: 100%;
+			float: right;
+			
+		}
+		.box::after{
+			content: "";
+			height: 0;
+			clear: both;
+			display: block;
+		}
+		.box ul{
+			height: 56px;
+			float: right;
+			margin-right: 200px;
+		}
+		.box ul li{
+			float: right;
+			margin-right: 5px;
+		}
+		.box ul li a{
+			font-size: 12px;
+			height: 56px;
+			line-height: 56px;
+			padding: 0 16px;
+			margin: 0 2px;
+			color: white;
+			display: block;
+			text-decoration: none;
+
+		}
+		.box ul li span{
+			height: 56px;
+			line-height: 56px;
+			color: white;
+			display: block;
+			position: absolute;
+		}
+		.search{
+			padding: 0 5px;
+			line-height: 56px;
+		}
+		.search input{
+			width: 158px;
+			height: 32px;
+			padding: 0 5px;
+			border-radius: 20px;
+			/*line-height: 56px;*/
+			/*vertical-align: middle;*/
+			border:0;
+			opacity: 0.7;
+    		color: #7d828e;
+			background: rgba(0,0,0,.3);
+		}
+		.pink{
+			padding: 2px 6px;
+			display: inline-block;
+			color: white;
+			display: inline-block;
+			background-color: #fb7299;
+			border-radius: 0 0 8px 8px;
+		}
+		.pink a p{
+			font-size: 16px;
+		}
+		.wenz img{
+            width:400px;
+            height: 160px;
+		}
+		.wenz{
+			position: absolute;
+			top:calc(38% - 80px);
+			left:calc(50% - 160px); 
+		}
+		.kuang1{
+			width: 181px;
+			height: 68px;
+			text-align: center;
+			line-height: 68px;
+			border:2px solid rgba(255,255,255,0.5);
+			position: absolute;
+			top: 450px;
+			left: 510px;
+		}
+		.kuang1 span{
+			font-size: 20px;
+			font-weight: bold;
+			color: white;
+		}
+		.kuang2{
+			width: 181px;
+			height: 68px;
+			text-align: center;
+			line-height: 68px;
+			border:2px solid rgba(255,255,255,0.5);
+			position: absolute;
+			top: 450px;
+			left: 890px;
+		}
+		.kuang2 span{
+			font-size: 20px;
+			font-weight:bold;
+			color: white;
+		}
+		.picture{
+			width: 1519px;
+			height: 450px;
+			background: rgb(28,23,29);
+			overflow: hidden;
+		}
+		.picture1{
+			float: left;
+		}
+		.picture2{
+			float: left;
+		}
+		.picture2 img{
+			height: 154px;
+		} 
+		.picture3{
+			float: left;
+		}
+		.picture4{
+			float: left;
+		}
+		.picture4 img{
+			height: 154px;
+		}
+		.picture5{
+			float: left;
+		}
+		.picture5 img{
+			height: 154px;
+		}
+		.picture6{
+			float: left;
+		}
+		.picture7{
+			float: left;
+		}
+		.picture7 img{
+			margin-top: -4px;
+		}
+		.picture8 img{
+			height: 200px;
+		}
+		.picture9 img{
+			width: 300px;
+			margin-top: -50px;
+		}
+		.picture12 img{
+			margin-top: -5px;
+			width: 300px;
+			height: 154px;
+		}
+		.picture15{
+			float: right;
+		}
+		.picture15 img{
+			width: 420px;
+			margin-top: -400px;
+		}
+		footer{
+			width: 100%;
+			height: 320px;
+			position: relative;
+		}
+		.bilibili{
+			width: 1300px;
+			height: 360px;
+			/*border:2px solid red;*/
+			margin:0 auto;
+		}
+		.bilibili1234{
+			width: 700px;
+			height: 360px;
+			float: left;
+			/*border:5px solid black;*/
+		}
+		.bilibili12{
+			height: 180px;
+			width: 760px;
+			margin-top: 20px;
+			/*border:2px solid yellow;*/
+
+		}
+		.bilibili1{
+			height: 180px;
+			width: 360px;
+			/*border:2px solid blue;*/
+			margin-top: 25px;
+			float: left;
+
+		}
+		.bilibili1 img{
+			height:30px;
+			/*margin-left: 45px;*/
+		}
+		.bilibili1 ul li a{
+			float: left;
+			margin-right: 40px;
+			text-decoration: none;
+			color:gray;
+			margin-top: 15px;
+
+		}
+		.bilibili2{
+			height: 160px;
+			width: 360px;
+			border-left :1px solid rgba(161,128,128,.7) ;
+			
+			margin-top: 25px;
+			float: right;
+		}
+		.bilibili2 ul li{
+			margin-top: 35px;
+		}
+		.bilibili2 ul li a{
+			float: left;
+			margin-left: 60px;
+			text-decoration: none;
+			color:gray;
+			margin-top: 15px;
+		}
+		.bilibili3{
+			height: 180px;
+			width: 800px;
+			border:2px solid white;
+		}
+		.aot{
+			 height: 110px; 
+			width: 160px;
+			/*overflow: hidden;*/
+		}
+		.aot img{
+			margin-top: -420px;
+			margin-left: 5px;
+		}
+		.a{
+			height: 140px;
+			width:120px;
+			float: left;
+			border:1px solid white;
+			overflow: hidden;
+		}
+		.t{
+			height: 150px;
+			width: 400px;
+			border:1px solid white;
+		}
+		.t p{
+			font-size: 12px;
+			color: gray;
+			margin-top: 60px;
+		}
+		.o{
+			height: 150px;
+			width: 300px;
+			margin-top: -90px;
+			margin-right:80px;
+			border:1px solid white;
+			float: right;
+		}
+		.o p{
+			font-size: 12px;
+			color: gray;
+			margin-top: 40px;
+		}
+		.bilibili5{
+			width: 220px;
+			height: 242px;
+			/*outline: 2px solid red;*/
+			float: right;
+
+		}
+		.bilibili5 ul li{
+			width: 90px;
+			height: 121px;
+			float: left;
+			margin-left: 13px;
+			margin-top: 50px;
+			/*outline: 1px solid red;*/
+			overflow: hidden;
+			
+		}
+		.bilibili5 ul li img{
+			margin-top: -20px;
+			margin-left: -20px;
+		}
+		.down{
+			margin:0 auto;
+			width: 60px;
+			height:60px;
+			background: url(images/photo/p_bg25.png) -21px -20px;
+		}
+		.bilibili5 ul li span{
+			font-size: 12px;
+			color: gray;
+			margin-left: 20px;
+			
+		}
+		.custmer{
+			margin:0 auto;
+			width: 60px;
+			height:60px;
+			background: url(images/photo/p_bg25.png) -21px -120px;
+		}
+		.wechat{
+			margin:0 auto;
+			width: 60px;
+			height:60px;
+			background: url(images/photo/p_bg25.png) -21px -220px;
+		}
+		.webo{
+			margin:0 auto;
+			width: 60px;
+			height:60px;
+			background: url(images/photo/p_bg25.png) -21px -320px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<div class="manuBg">
+			<div class="container menuCout">
+				<ul>
+					<li><a href="index.html">主站</a></li>
+					<li><div class="si"><a href="">相簿首页</a></div></li>
+					<li><a href="">画友</a></li>
+					<li><a href="">摄影</a></li>
+					<li><a href="">排行榜</a></li>
+					<li><a href="">活动中心</a></li>
+				</ul>
+			</div>
+			<div class="box">
+				<ul>
+					<li><div class="pink"><a href=""><p>发布</p></a></div></li>
+					<li><a href="">注册</a></li>
+					<li><span>|</span></li>
+					<li><a href="">登录</a></li>
+					<li><div class="search"><input style="search" placeholder="请输入关键词"></div></li>
+				</ul>
+			</div>
+		</div>
+		<div class="wenz">
+			<img src="images/photo/P_bg23.png">
+		</div>
+		<div class="kuang1"><span>画友</span>
+		</div>
+		<div class="kuang2"><span>摄影</span>
+		</div>
+	</header>
+	<div class="picture">
+		<div class="picture1"><img src="images/photo/p_bg02.png"></div>
+		<div class="picture2"><img src="images/photo/p_bg03.png"></div>
+		<div class="picture3"><img src="images/photo/p_bg04.png"></div>
+		<div class="picture4"><img src="images/photo/p_bg05.png"></div>
+		<div class="picture5"><img src="images/photo/p_bg06.png"></div>
+		<div class="picture6"><img src="images/photo/p_bg07.png"></div>
+		<div class="picture7"><img src="images/photo/p_bg08.png"></div>
+		<div class="picture8"><img src="images/photo/p_bg09.png"></div>
+		<div class="picture9"><img src="images/photo/p_bg10.png"></div>
+		<div class="picture12"><img src="images/photo/p_bg13.png"></div>
+		<div class="picture15"><img src="images/photo/p_bg16.png"></div>
+	</div>
+	<footer>
+		<div class="bilibili">
+			<div class="bilibili1234">
+				<div class="bilibili12">
+				<div class="bilibili1">
+					<img src="images/photo/p_bg24.png">
+					<ul>
+						<li><a href="">关于我们</a></li>
+						<li><a href="">友情链接</a></li>
+						<li><a href="">哔哩哔哩周边</a></li>
+						<li><a href="">联系我们</a></li>
+						<li><a href="">加入我们</a></li>
+					</ul>
+				</div>
+				<div class="bilibili2">
+					<ul>
+						<li><a href="">帮助中心</a></li>
+						<li><a href="">工具使用教程</a></li>
+						<li><a href="">招聘公告</a></li>
+						<li><a href="">如何成为主播</a></li>
+					</ul>
+				</div>
+			</div><!-- 12 -->
+			<div class="bilibili3">
+				<div class="aot">
+					<div class="a"><img src="images/photo/p_bg25.png"></div>
+					<div class="t"><p>广播电视节目制作经营许可证：(沪) 字第 1248 号
+网络文化经营许可证：沪网文 [2013]0480-056 号
+信息网络传播视听节目许可证：0910417</p></div>
+				</div>
+					<div class="o"><p>互联网 ICP 备案：沪 ICP 备 13002172 号 - 3
+沪 ICP 证：沪 B2-20100043
+12318 全国文化市场举报网站
+上海市互联网违法和不良信息举报中心</p>
+					</div>
+				
+			</div>
+			</div><!-- 1234 -->
+			<div class="bilibili5">
+                <ul>
+                   <li><div class="down"></div><span>bilibili link 下载</span></li>  
+                   <li><div class="custmer"></div><span>联系客服</span></li>
+                   <li><div class="wechat"></div><span>官方微信</span></li>
+                   <li><div class="webo"></div><span>新浪微博</span></li>
+                  </ul>
+		</div>
+	</footer>
+</body>
+</html>
